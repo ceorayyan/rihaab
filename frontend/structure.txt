@@ -1,0 +1,46 @@
+            DONE CONVERTING
+--Profile
+--stories
+
+
+
+
+
+
+
+-------------------I WANT THIS SIDEBAR ON MY LEFT SIDE OF THE LAYOUT---------------------------------
+import React from "react";
+
+
+         -------Folder Structure------
+
+
+src/
+├── components/
+│   └── Layout.jsx
+├── pages/
+│   ├── authentication/
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   └── ForgotPassword.jsx
+│   ├── community/
+│   │   ├── index.jsx
+│   │   ├── create.jsx
+│   │   ├── show.jsx
+│   │   └── channel.jsx
+│   ├── posts/
+│   │   ├── index.jsx
+│   │   └── create.jsx
+│   ├── stories/
+│   │   ├── index.jsx
+│   │   ├── create.jsx
+│   │   └── show.jsx
+│   ├── profile/
+│   │   ├── edit.jsx         
+│   │   ├── feed.jsx         
+│   │   ├── user_feed.jsx   
+│   │   └── public.jsx       
+│   ├── Profile.jsx
+│   ├── Notifications.jsx
+│   └── People.jsx
+└── App.jsx

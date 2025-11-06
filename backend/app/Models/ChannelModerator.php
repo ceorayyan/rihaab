@@ -1,0 +1,24 @@
+<?php
+// app/Models/ChannelModerator.php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class ChannelModerator extends Model
+{
+    protected $fillable = [
+        'channel_id',
+        'user_id'
+    ];
+
+    public function channel()
+    {
+        return $this->belongsTo(CommunityChannel::class, 'channel_id');
+    }
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+}

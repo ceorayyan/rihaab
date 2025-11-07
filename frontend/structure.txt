@@ -11,13 +11,14 @@
 -------------------I WANT THIS SIDEBAR ON MY LEFT SIDE OF THE LAYOUT---------------------------------
 import React from "react";
 
-
-         -------Folder Structure------
-
-
 src/
+├── assets/
 ├── components/
-│   └── Layout.jsx
+│   ├── Layout.jsx            ✅ (main wrapper)
+│   └── layout/
+│       ├── sidebar.jsx       ✅
+│       ├── navigation.jsx    ✅
+│       └── dropdown.jsx      │      
 ├── pages/
 │   ├── authentication/
 │   │   ├── Login.jsx
@@ -36,10 +37,10 @@ src/
 │   │   ├── create.jsx
 │   │   └── show.jsx
 │   ├── profile/
-│   │   ├── edit.jsx         
-│   │   ├── feed.jsx         
-│   │   ├── user_feed.jsx   
-│   │   └── public.jsx       
+│   │   ├── edit.jsx
+│   │   ├── feed.jsx
+│   │   ├── user_feed.jsx
+│   │   └── public.jsx
 │   ├── Profile.jsx
 │   ├── Notifications.jsx
 │   └── People.jsx
